@@ -1,29 +1,72 @@
-# Square flag assets
+# Square Flags
 
-Version **1.1.0** contains 540 square designs: 242 countries and 298 subdivisions.
-The 31 Chinese subdivision flags add custom yellow cultural symbols in the
-lower-right corner, based on the user-supplied symbol list. The other 509 designs
-are unchanged. These are square adaptations and custom geographic artwork.
-The original **1.0.0** release remains available at its existing URLs.
+**540 square flag designs** for websites, maps, apps, and other projects: 242
+country entries and 298 subdivisions, available as optimized WebP images and
+full-resolution PNG masters.
 
-The checked-in WebP files are ready to deploy. Builds do not need
-Supabase, credentials, the original PNGs, or any network downloads. Each file has
-a source hash in its directory name, under a frozen release version.
-`assets/1.1.0/manifest.json` records names, map codes,
-ISO aliases, source pages, available license metadata, design notes, original PNG
-hashes, and release file hashes. Unknown source licenses remain explicitly null.
+| United States                                                                                             | Japan                                                                                             | Sichuan                                                                                                                        | Shanghai                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/1.1.0/country/us.8102e2e5af60afbc/400.webp" width="120" alt="United States square flag"> | <img src="assets/1.1.0/country/jp.04bfcaeb39567a7b/400.webp" width="120" alt="Japan square flag"> | <img src="assets/1.1.0/subdivision/cn-sc.4e39e1ec16f67848/400.webp" width="120" alt="Sichuan square flag with a yellow panda"> | <img src="assets/1.1.0/subdivision/cn-sh.7f7121d5f21f6ea7/400.webp" width="120" alt="Shanghai square flag with a yellow skyline"> |
 
-## Use in a website
+The collection includes square adaptations of national and regional flags, plus
+custom geographic illustrations. In version **1.1.0**, 31 Chinese subdivisions
+have distinct yellow cultural symbols in the lower-right corner, such as
+Sichuan's panda, Beijing's Temple of Heaven, and Shanghai's skyline. These custom
+designs are not official provincial flags.
 
-Pin `"@workspace/flag-assets": "workspace:1.1.0"` in a monorepo consumer.
-Copy the release when loading the site's build/development configuration:
+## Download
+
+- **Web images:** clone this repository or [download version 1.1.0](https://github.com/andr3wmccarthy/flag-assets/archive/refs/tags/v1.1.0.zip).
+- **Full-resolution PNGs:** download `current-flag-masters-1.1.0.tar.gz` from the [latest artwork release](https://github.com/andr3wmccarthy/flag-assets/releases/tag/v1.1.0). It contains the 540 current designs, including the replacement Chinese subdivision artwork.
+
+Each WebP is available at **48, 96, 144, 200, 400, and 600 pixels square**. Choose a
+size appropriate to the display and pixel density, or provide responsive image
+candidates so the browser can choose.
+
+## Use the image files directly
+
+No framework or JavaScript package is required. Copy `assets/1.1.0/` to a
+`flags/1.1.0/` directory in your website's public files:
+
+```sh
+git clone --branch v1.1.0 https://github.com/andr3wmccarthy/flag-assets.git
+mkdir -p public/flags
+cp -R flag-assets/assets/1.1.0 public/flags/1.1.0
+```
+
+Then use an ordinary image element:
+
+```html
+<img
+  src="/flags/1.1.0/country/jp.04bfcaeb39567a7b/96.webp"
+  width="48"
+  height="48"
+  alt="Japan"
+/>
+```
+
+Find each flag's filenames and available sizes in the
+[manifest](assets/1.1.0/manifest.json). Native apps and other tools can bundle
+these same files and read the manifest directly.
+
+## Optional JavaScript helpers
+
+Install the package from GitHub:
+
+```sh
+npm install git+https://github.com/andr3wmccarthy/flag-assets.git#v1.1.0
+```
+
+Its package name is `@workspace/flag-assets`. In your build script, copy the
+bundled releases into your site's public directory:
 
 ```js
 import { copyFlagAssets } from "@workspace/flag-assets/build";
-copyFlagAssets("/absolute/path/to/site/public");
+
+copyFlagAssets("./public");
 ```
 
-Resolve an image in browser or server code:
+Look up images by country or subdivision code:
 
 ```js
 import {
@@ -32,115 +75,54 @@ import {
   getFlagSrcSet,
 } from "@workspace/flag-assets";
 
-getCountryFlagUrl("US"); // /flags/1.1.0/country/us.<source-hash>/400.webp
-getSubdivisionFlagUrl("US-CA");
-getSubdivisionFlagUrl("IN-CG"); // Also resolves the catalog's older IN-CT code
-
-const src = getCountryFlagUrl("US");
-// React: <img src={src} srcSet={getFlagSrcSet(src)} sizes="48px" alt="United States" />
+const src = getCountryFlagUrl("JP");
+const subdivisionSrc = getSubdivisionFlagUrl("CN-SC");
+const srcSet = getFlagSrcSet(src);
 ```
 
-Lookup is case-insensitive, retains custom map identities, and returns
-`undefined` for missing entries. Render the returned path as an ordinary image
-with an appropriate text alternative. The client lookup imports only a compact
-path index; it does not load every image or the full provenance manifest.
+For example, in React:
 
-Each design has 48, 96, 144, 200, 400, and 600px derivatives. These cover
-andr3wm's 48px review flags and 200px map panels at 1×, 2×, and 3× pixel density;
-the 128/176px statistics panels use the closest suitable candidate too.
-`CountryFlagArtwork` passes `srcSet` and its actual layout `sizes` to the browser,
-which selects one candidate. `sizes` alone does not resize an image. Other
-projects should also pass both attributes, or choose a file from the manifest.
-The fallback `src` is 400px. No on-demand image server or runtime compression is
-required, and these static images decode asynchronously.
+```jsx
+<img
+  src={src}
+  srcSet={srcSet}
+  sizes="48px"
+  width={48}
+  height={48}
+  alt="Japan"
+/>
+```
 
-andr3wm uses these URLs for its country and subdivision artwork, with its legacy
-assets retained as fallbacks outside the release. Both andr3wm and the portfolio
-copy this package to `public/flags/1.1.0` automatically, alongside retained releases. Those generated copies
-are ignored by Git. Their deployment configurations set immutable caching and
-public CORS headers on the versioned paths.
+Lookups are case-insensitive, support the aliases recorded in the manifest, and
+return `undefined` for unknown codes. The default image is 400px. `getFlagSrcSet`
+provides all six sizes; set `sizes` to match the image's displayed width.
 
-## Other projects and hosted URLs
-
-`pnpm --filter @workspace/flag-assets pack --pack-destination /your/output/folder`
-creates a portable npm tarball. Install the tarball in another project, or just
-copy `assets/1.1.0` into its public `flags/1.1.0` directory. Native apps can bundle
-the image files and use the JSON manifest without JavaScript.
-
-After a website containing this release is deployed, its
-`/flags/1.1.0/manifest.json` exposes the same file mapping. For an external site,
-pass that deployed site's origin as the resolver's second argument:
+If you serve the files from another origin, pass that origin to the lookup:
 
 ```js
-getCountryFlagUrl("US", "https://andrewmccarthy.cv");
+getCountryFlagUrl("JP", "https://assets.example.com");
 ```
 
-This is a deployment path, not a separate hosted service. Shipping this package
-does not itself deploy either site or publish an npm package.
+The origin must host the copied files under `/flags/1.1.0/`.
 
-## Deliberate updates only
+## Versions and file integrity
 
-Never replace assets or metadata inside a released version. Keep previous
-versions in `assets/`; the build helper copies every retained release so their
-old URLs keep working after a fresh deployment. Create a new package/release version and
-update consumers explicitly when a design needs to change.
+Asset paths contain a release version and a source hash. Released files stay
+unchanged, so you can pin a version and cache its URLs long-term. The build helper
+copies every included release to preserve earlier URLs.
 
-`scripts/release-local.mjs` is an explicit authoring tool, never a build hook. It
-checks every original against the local import receipts, refuses an existing
-release directory, and writes WebP derivatives at quality 85 with smart chroma
-subsampling. It preserves the original design but resizes and compresses it;
-the untouched 1254px PNGs stay
-in the local authoring catalog and backups. Source hashes connect the derivatives
-to those originals. The original release sources remain untouched.
+The manifest records dimensions, byte sizes, and SHA-256 checksums for every
+WebP. [masters.json](masters.json) lists the current PNG masters and their
+checksums; [recovery.json](recovery.json) contains the PNG archive checksum.
+The PNG archive is a release attachment, keeping ordinary Git clones small.
 
-For the Chinese corner-art revision, `scripts/release-corner-art.mjs` derives
-only the 31 revised designs from the reviewed ImageGen masters in
-`masters/1.1.0/`. That directory contains the full prompt set and PNG masters;
-it is excluded from the portable npm tarball and website assets. The local CMS and websites use optimized WebPs; the release archive retains
-the revised PNGs.
+## Artwork and attribution
 
-For a future full catalog release, bump the package version, run
-`pnpm --filter @workspace/flag-assets release:local`, update the manifest export
-and release tests, then review and pin the new version in each consumer.
+The manifest includes each design's source page, available license information,
+and notes about adaptations. Some entries retain custom geographic codes rather
+than ISO codes. The collection is not a complete catalog of every subdivision.
 
-Run `pnpm --filter @workspace/flag-assets test` to verify the release and portable
-copy behavior.
-
-## Public repository and recovery
-
-The canonical asset repository is https://github.com/andr3wmccarthy/flag-assets.
-This package is mounted at `packages/flag-assets` as a Git submodule in the
-personal monorepo. Its commit is pinned: pulling the parent repository never
-silently selects newer flag artwork.
-
-After cloning the parent repository, run:
-
-```sh
-git submodule update --init --recursive
-```
-
-GitHub Actions check out submodules recursively. Vercel supports public HTTPS
-submodules. The websites still serve local bundled WebPs; visitors do not need
-to request images from GitHub or Supabase.
-
-The `v1.1.0` GitHub release includes `current-flag-masters-1.1.0.tar.gz`: the 540 current PNG masters.
-The 31 Chinese subdivision masters are the replacement yellow-symbol designs;
-the superseded plain Chinese images are excluded. `masters.json`
-records each file's SHA-256 hash. `recovery.json` pins the archive checksum.
-The large PNGs are release attachments rather than Git blobs, keeping clones
-small. Download the attachment with:
-
-```sh
-gh release download v1.1.0 --repo andr3wmccarthy/flag-assets --pattern 'current-flag-masters-1.1.0.tar.gz'
-```
-
-The CMS uses commit-pinned `raw.githubusercontent.com` URLs for 600px WebPs.
-Full-resolution originals remain recoverable from the release; no flag image
-needs to occupy Supabase Storage. Artwork provenance and any known source
-licenses are recorded per flag; no blanket license is asserted for all artwork.
-
-To deliberately update the submodule later, commit and push changes from inside
-`packages/flag-assets`, then commit that folder's new Git pointer in the parent
-repository. Regular work needs no special command once the submodule is
-initialized. Avoid `git submodule update --remote` unless intentionally selecting
-newer artwork.
+License information is recorded per design; unknown licenses are marked `null`.
+This repository does not grant a blanket license for all underlying flag artwork.
+The prompts for the Chinese subdivision illustrations are included in
+[artwork/1.1.0/prompts.json](artwork/1.1.0/prompts.json).
