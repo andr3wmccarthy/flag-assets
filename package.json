@@ -1,0 +1,39 @@
+{
+  "name": "@workspace/flag-assets",
+  "version": "1.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andr3wmccarthy/flag-assets.git"
+  },
+  "description": "Frozen square country and subdivision artwork, ready to serve without a database.",
+  "main": "./index.cjs",
+  "types": "./index.d.cts",
+  "exports": {
+    ".": {
+      "types": "./index.d.cts",
+      "default": "./index.cjs"
+    },
+    "./build": {
+      "types": "./build.d.cts",
+      "default": "./build.cjs"
+    },
+    "./manifest.json": "./assets/1.1.0/manifest.json"
+  },
+  "files": [
+    "assets",
+    "index.cjs",
+    "index.d.cts",
+    "build.cjs",
+    "build.d.cts",
+    "urls.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "release:local": "node scripts/release-local.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}

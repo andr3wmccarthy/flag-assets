@@ -1,0 +1,224 @@
+{
+  "generator": "Built-in ImageGen",
+  "placement": "lower-right",
+  "reference": "User-provided provincial symbol list",
+  "flags": [
+    {
+      "code": "CN-SC",
+      "name": "Sichuan",
+      "symbol": "Giant panda",
+      "file": "cn-sc.png",
+      "prompt": "Use case: precise-object-edit. Edit the attached square flag for Sichuan (CN-SC). Preserve the existing red background and the exact positions, number, shapes and yellow color of all five stars. Add ONLY one small flat yellow giant panda emblem in the LOWER-RIGHT corner. Use the same yellow as the existing stars; the panda's eye patches, nose and internal negative space are red cutouts, not black or white. A simple friendly seated giant panda silhouette with round ears and clear panda eye patches, recognizable at small sizes. The complete emblem fits inside x=68%-92%, y=68%-92% of the canvas, leaving 8% margin from the right and bottom. Restrained clean bold silhouette, no enclosure, no badge, no text, no borders, no gradients, no new colors. Keep all other parts of the flag unchanged. Return exactly one standalone full square flag image, not a mockup or contact sheet."
+    },
+    {
+      "code": "CN-AH",
+      "name": "Anhui",
+      "symbol": "Huangshan: one twisted windswept pine beside two angular mountain peaks",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Anhui (CN-AH). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Huangshan: one twisted windswept pine beside two angular mountain peaks. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-ah.png"
+    },
+    {
+      "code": "CN-BJ",
+      "name": "Beijing",
+      "symbol": "Temple of Heaven: recognizable round three-tiered imperial roof pavilion",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Beijing (CN-BJ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Temple of Heaven: recognizable round three-tiered imperial roof pavilion. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-bj.png"
+    },
+    {
+      "code": "CN-CQ",
+      "name": "Chongqing",
+      "symbol": "Chongqing hot pot: a round cooking pot seen slightly from above, divided broth and two curling steam marks",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Chongqing (CN-CQ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Chongqing hot pot: a round cooking pot seen slightly from above, divided broth and two curling steam marks. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-cq.png"
+    },
+    {
+      "code": "CN-FJ",
+      "name": "Fujian",
+      "symbol": "a Fujian tulou: a circular earthen communal building with a clear open central courtyard, seen in a simple three-quarter elevated view",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Fujian (CN-FJ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Fujian tulou: a circular earthen communal building with a clear open central courtyard, seen in a simple three-quarter elevated view. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-fj.png"
+    },
+    {
+      "code": "CN-GD",
+      "name": "Guangdong",
+      "symbol": "a Cantonese lion-dance head: bold expressive round eyes, ornamental forehead and open smiling mouth",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Guangdong (CN-GD). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Cantonese lion-dance head: bold expressive round eyes, ornamental forehead and open smiling mouth. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-gd.png"
+    },
+    {
+      "code": "CN-GS",
+      "name": "Gansu",
+      "symbol": "a Dunhuang flying celestial figure (feitian): one graceful flying figure with a long curling ribbon, simple flowing silhouette",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Gansu (CN-GS). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Dunhuang flying celestial figure (feitian): one graceful flying figure with a long curling ribbon, simple flowing silhouette. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-gs.png"
+    },
+    {
+      "code": "CN-GX",
+      "name": "Guangxi",
+      "symbol": "Guilin karst landscape: three distinct rounded limestone peaks beside two simple Li River wave lines",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Guangxi (CN-GX). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Guilin karst landscape: three distinct rounded limestone peaks beside two simple Li River wave lines. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-gx.png"
+    },
+    {
+      "code": "CN-GZ",
+      "name": "Guizhou",
+      "symbol": "a Miao silver headdress interpreted entirely in yellow: recognizable broad crescent horned crown and hanging ornaments, no portrait",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Guizhou (CN-GZ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Miao silver headdress interpreted entirely in yellow: recognizable broad crescent horned crown and hanging ornaments, no portrait. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-gz.png"
+    },
+    {
+      "code": "CN-HA",
+      "name": "Henan",
+      "symbol": "a Shaolin kung fu monk: a single figure in a balanced martial arts stance, one arm extended, simple bold silhouette",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Henan (CN-HA). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Shaolin kung fu monk: a single figure in a balanced martial arts stance, one arm extended, simple bold silhouette. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-ha.png"
+    },
+    {
+      "code": "CN-HB",
+      "name": "Hubei",
+      "symbol": "Yellow Crane Tower: a distinctive tall pavilion with five stacked upturned eaves",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Hubei (CN-HB). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Yellow Crane Tower: a distinctive tall pavilion with five stacked upturned eaves. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-hb.png"
+    },
+    {
+      "code": "CN-HE",
+      "name": "Hebei",
+      "symbol": "Shanhaiguan Great Wall meeting the sea: one crenellated gate tower with a short descending wall beside two wave lines",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Hebei (CN-HE). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Shanhaiguan Great Wall meeting the sea: one crenellated gate tower with a short descending wall beside two wave lines. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-he.png"
+    },
+    {
+      "code": "CN-HI",
+      "name": "Hainan",
+      "symbol": "one coconut palm leaning over a small curved tropical shore",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Hainan (CN-HI). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing one coconut palm leaning over a small curved tropical shore. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-hi.png"
+    },
+    {
+      "code": "CN-HL",
+      "name": "Heilongjiang",
+      "symbol": "Harbin ice sculptures: a simple ice-castle silhouette with three faceted towers, no gradients or extra colors",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Heilongjiang (CN-HL). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Harbin ice sculptures: a simple ice-castle silhouette with three faceted towers, no gradients or extra colors. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-hl.png"
+    },
+    {
+      "code": "CN-HN",
+      "name": "Hunan",
+      "symbol": "Zhangjiajie: a compact cluster of three tall slender sandstone pillars with small flat tree crowns",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Hunan (CN-HN). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Zhangjiajie: a compact cluster of three tall slender sandstone pillars with small flat tree crowns. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-hn.png"
+    },
+    {
+      "code": "CN-JL",
+      "name": "Jilin",
+      "symbol": "Changbai Mountain crater lake: a mountain rim surrounding an oval caldera lake with one short water line",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Jilin (CN-JL). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Changbai Mountain crater lake: a mountain rim surrounding an oval caldera lake with one short water line. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-jl.png"
+    },
+    {
+      "code": "CN-JS",
+      "name": "Jiangsu",
+      "symbol": "a Suzhou classical garden: one elegant arched stone bridge beside a small upturned-roof pavilion",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Jiangsu (CN-JS). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a Suzhou classical garden: one elegant arched stone bridge beside a small upturned-roof pavilion. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-js.png"
+    },
+    {
+      "code": "CN-JX",
+      "name": "Jiangxi",
+      "symbol": "Jingdezhen porcelain: a rounded porcelain vase with a narrow neck and a simple floral motif cut out in red, no blue",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Jiangxi (CN-JX). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Jingdezhen porcelain: a rounded porcelain vase with a narrow neck and a simple floral motif cut out in red, no blue. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-jx.png"
+    },
+    {
+      "code": "CN-LN",
+      "name": "Liaoning",
+      "symbol": "Shenyang Imperial Palace: a broad symmetrical palace gate with a double-tier upturned roof",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Liaoning (CN-LN). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Shenyang Imperial Palace: a broad symmetrical palace gate with a double-tier upturned roof. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-ln.png"
+    },
+    {
+      "code": "CN-NM",
+      "name": "Inner Mongolia",
+      "symbol": "a single galloping horse above one short curved grassland baseline",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Inner Mongolia (CN-NM). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a single galloping horse above one short curved grassland baseline. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-nm.png"
+    },
+    {
+      "code": "CN-NX",
+      "name": "Ningxia",
+      "symbol": "a goji berry sprig: three elongated berries with pointed leaves on a gently curved stem",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Ningxia (CN-NX). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing a goji berry sprig: three elongated berries with pointed leaves on a gently curved stem. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-nx.png"
+    },
+    {
+      "code": "CN-QH",
+      "name": "Qinghai",
+      "symbol": "Qinghai Lake: two broad lake wave lines beneath a low mountain silhouette and a simple sun",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Qinghai (CN-QH). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Qinghai Lake: two broad lake wave lines beneath a low mountain silhouette and a simple sun. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-qh.png"
+    },
+    {
+      "code": "CN-SD",
+      "name": "Shandong",
+      "symbol": "Confucius: a dignified simplified scholar bust with traditional scholar cap and long flowing beard, no text",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Shandong (CN-SD). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Confucius: a dignified simplified scholar bust with traditional scholar cap and long flowing beard, no text. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-sd.png"
+    },
+    {
+      "code": "CN-SH",
+      "name": "Shanghai",
+      "symbol": "Oriental Pearl Tower: iconic two spherical observation decks on a slender tower, accompanied by one minimal Pudong skyscraper",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Shanghai (CN-SH). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Oriental Pearl Tower: iconic two spherical observation decks on a slender tower, accompanied by one minimal Pudong skyscraper. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-sh.png"
+    },
+    {
+      "code": "CN-SN",
+      "name": "Shaanxi",
+      "symbol": "one Terracotta Army warrior bust: distinctive topknot, stern face and segmented armor indicated with red cutouts",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Shaanxi (CN-SN). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing one Terracotta Army warrior bust: distinctive topknot, stern face and segmented armor indicated with red cutouts. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-sn.png"
+    },
+    {
+      "code": "CN-SX",
+      "name": "Shanxi",
+      "symbol": "Pingyao ancient city: a compact crenellated city wall with its characteristic central Chinese gatehouse",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Shanxi (CN-SX). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Pingyao ancient city: a compact crenellated city wall with its characteristic central Chinese gatehouse. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-sx.png"
+    },
+    {
+      "code": "CN-TJ",
+      "name": "Tianjin",
+      "symbol": "Tianjin Eye: a clean Ferris wheel circle with six bold spokes and a simple bridge support",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Tianjin (CN-TJ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Tianjin Eye: a clean Ferris wheel circle with six bold spokes and a simple bridge support. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-tj.png"
+    },
+    {
+      "code": "CN-XJ",
+      "name": "Xinjiang",
+      "symbol": "an Uyghur doppa skullcap: a low square-crowned embroidered cap in three-quarter view, with a few bold traditional floral cutouts",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Xinjiang (CN-XJ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing an Uyghur doppa skullcap: a low square-crowned embroidered cap in three-quarter view, with a few bold traditional floral cutouts. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-xj.png"
+    },
+    {
+      "code": "CN-XZ",
+      "name": "Tibet / Xizang",
+      "symbol": "Potala Palace: the recognizable stepped hilltop palace silhouette with a taller central block and terraced wings",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Tibet / Xizang (CN-XZ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Potala Palace: the recognizable stepped hilltop palace silhouette with a taller central block and terraced wings. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-xz.png"
+    },
+    {
+      "code": "CN-YN",
+      "name": "Yunnan",
+      "symbol": "Stone Forest: a small group of sharp upright limestone spires, deliberately angular rather than rounded hills",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Yunnan (CN-YN). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Stone Forest: a small group of sharp upright limestone spires, deliberately angular rather than rounded hills. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-yn.png"
+    },
+    {
+      "code": "CN-ZJ",
+      "name": "Zhejiang",
+      "symbol": "Hangzhou West Lake: the three small stone pagodas of Three Pools Mirroring the Moon above two calm water lines",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the square flag for Zhejiang (CN-ZJ). Image 2 is only a STYLE AND PLACEMENT REFERENCE showing a panda emblem. Edit image 1 only. Preserve image 1's red background and exact positions, number, shapes and yellow color of all five stars. Add ONLY one yellow emblem representing Hangzhou West Lake: the three small stone pagodas of Three Pools Mirroring the Moon above two calm water lines. Put the emblem in the LOWER-RIGHT corner at the same visual scale and position as the panda in image 2, roughly the lower-right 28% square with 7-8% edge margins. The new emblem should be a restrained bold flat silhouette with simple red negative-space cutouts. Use only the stars' existing yellow; any holes/details show the existing red background. Do not copy the panda. Keep the symbol recognizable at small sizes. No text, labels, badges, framing shapes, border, gradients, shading, extra colors or mockup. Preserve all other parts of image 1 unchanged. Return exactly one complete square flag image.",
+      "file": "cn-zj.png"
+    }
+  ]
+}
