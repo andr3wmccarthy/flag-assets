@@ -188,3 +188,14 @@ test("version 1.1.0 is frozen", () => {
     "Publish a new version instead of changing released artwork or metadata",
   );
 });
+
+test("the recovery archive includes exactly the 540 current masters", async () => {
+  const { entries } = JSON.parse(await readFile(new URL("../masters.json", import.meta.url), "utf8"));
+  assert.equal(entries.length, manifest.flags.length);
+  assert.equal(new Set(entries.map((entry) => entry.id)).size, entries.length);
+  for (const flag of manifest.flags) {
+    const master = entries.find((entry) => entry.id === flag.id);
+    assert.equal(master.sha256, flag.sourceSha256, flag.id);
+    assert.equal(master.version, "1.1.0");
+  }
+});

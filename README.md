@@ -123,17 +123,24 @@ GitHub Actions check out submodules recursively. Vercel supports public HTTPS
 submodules. The websites still serve local bundled WebPs; visitors do not need
 to request images from GitHub or Supabase.
 
-The `v1.1.0` GitHub release includes `flag-masters-1.1.0.tar.gz`: all 540 original
-PNG masters plus the 31 edited Chinese subdivision masters. `masters.json`
+The `v1.1.0` GitHub release includes `current-flag-masters-1.1.0.tar.gz`: the 540 current PNG masters.
+The 31 Chinese subdivision masters are the replacement yellow-symbol designs;
+the superseded plain Chinese images are excluded. `masters.json`
 records each file's SHA-256 hash. `recovery.json` pins the archive checksum.
 The large PNGs are release attachments rather than Git blobs, keeping clones
 small. Download the attachment with:
 
 ```sh
-gh release download v1.1.0 --repo andr3wmccarthy/flag-assets --pattern 'flag-masters-1.1.0.tar.gz'
+gh release download v1.1.0 --repo andr3wmccarthy/flag-assets --pattern 'current-flag-masters-1.1.0.tar.gz'
 ```
 
 The CMS uses commit-pinned `raw.githubusercontent.com` URLs for 600px WebPs.
 Full-resolution originals remain recoverable from the release; no flag image
 needs to occupy Supabase Storage. Artwork provenance and any known source
 licenses are recorded per flag; no blanket license is asserted for all artwork.
+
+To deliberately update the submodule later, commit and push changes from inside
+`packages/flag-assets`, then commit that folder's new Git pointer in the parent
+repository. Regular work needs no special command once the submodule is
+initialized. Avoid `git submodule update --remote` unless intentionally selecting
+newer artwork.
